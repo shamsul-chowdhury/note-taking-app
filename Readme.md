@@ -15,6 +15,7 @@
 Authentication
 •	POST /auth/register: Register a new user.
 o	Request body: { "username": "your_username", "password": "your_password" }
+
 •	POST /auth/login: Log in an existing user.
 o	Request body: { "username": "your_username", "password": "your_password" }
 Notes
