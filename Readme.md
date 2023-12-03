@@ -32,8 +32,8 @@ o	Requires authentication.
 o	Requires authentication.
 
 •	PUT /notes/:id: Update a specific note.
-o	Requires authentication.
+	Requires authentication.
+	Request body: { "title": "Updated Title", "body": "Updated Body" }
 
-o	Request body: { "title": "Updated Title", "body": "Updated Body" }
 •	DELETE /notes/:id: Delete a specific note.
 o	Requires authentication.
