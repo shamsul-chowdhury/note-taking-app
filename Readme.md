@@ -15,25 +15,25 @@
 Authentication
 
 •	POST /auth/register: Register a new user.
-o	Request body: { "username": "your_username", "password": "your_password" }
+	Request body: { "username": "your_username", "password": "your_password" }
 
 •	POST /auth/login: Log in an existing user.
-o	Request body: { "username": "your_username", "password": "your_password" }
+	Request body: { "username": "your_username", "password": "your_password" }
 Notes
 
 •	POST /notes: Create a new note.
-o	Requires authentication.
-o	Request body: { "title": "Note Title", "body": "Note Body" }
+	Requires authentication.
+	Request body: { "title": "Note Title", "body": "Note Body" }
 
 •	GET /notes: Get all notes.
-o	Requires authentication.
+	Requires authentication.
 
 •	GET /notes/:id: Get a specific note.
-o	Requires authentication.
+	Requires authentication.
 
 •	PUT /notes/:id: Update a specific note.
 	Requires authentication.
 	Request body: { "title": "Updated Title", "body": "Updated Body" }
 
 •	DELETE /notes/:id: Delete a specific note.
-o	Requires authentication.
+	Requires authentication.
